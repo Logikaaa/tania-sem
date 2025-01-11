@@ -27,9 +27,12 @@ q1 = Question('Який сьогодні день?', 'субота', 'неділ
 q2 = Question('Дім', 'house', 'horse', 'hurry', 'hour')
 q3 = Question('Миша', 'mouse', 'mouth', 'muse', 'museum')
 q4 = Question('Число', 'number', 'digit', 'amount', 'summary')
+q5 = Question('Число', 'number', 'digit', 'amount', 'summary')
+q6 = Question('Число', 'number', 'digit', 'amount', 'summary')
+
 
 radio_buttons = [rb_ans1, rb_ans2, rb_ans3, rb_ans4]
-questions = [q1, q2, q3, q4]
+questions = [q1, q2, q3, q4, q5, q6]
 
 def new_question():
     global cur_q
